@@ -2,8 +2,8 @@ import {Routes, Route, Navigate} from 'react-router-dom'
 import HomePage from './pages/HomePage';
 import Register from './pages/Register';
 import Login from './pages/Login';
-// import axios from 'axios';
-// axios.defaults.baseURL = 'http://localhost:8080/api/v1'
+import axios from 'axios';
+axios.defaults.baseURL = 'https://petty-cash-backend.onrender.com/api/v1'
 function App() {
   return (
     <>
